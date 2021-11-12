@@ -17,7 +17,7 @@
                     "path": "/api"
                 }
             }
-        }
+        },
         {
       "listen": "/etc/caddy/vless-grpc",
       "protocol": "vless",
