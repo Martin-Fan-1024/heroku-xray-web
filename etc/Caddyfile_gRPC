@@ -17,7 +17,8 @@ header {
   }
 reverse_proxy @websocket_xray_vless unix//etc/caddy/vless
 @grpc {
-    
+    header Connection *Upgrade*
+    header Upgrade    websocket
     protocol grpc
     path /api-grpc # 填写 /你的 ServiceName/*
     }
