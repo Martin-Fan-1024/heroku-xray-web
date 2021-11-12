@@ -19,7 +19,8 @@
             }
         },
         {
-      "listen": "/etc/caddy/vless_grpc",
+      "port": 10002,
+      "listen": "127.0.0.1",
       "protocol": "vless",
       "settings": {
         "clients": [
