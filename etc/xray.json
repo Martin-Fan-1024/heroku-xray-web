@@ -18,6 +18,24 @@
                 }
             }
         }
+        {
+      "listen": "/etc/caddy/vless-grpc",
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "$UUID" // 填写你的 UUID
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "api" // 填写你的 ServiceName
+        }
+      }
+    }
     ], 
     "outbounds": [
         {
