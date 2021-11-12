@@ -19,7 +19,7 @@
             }
         },
         {
-      "listen": "/etc/caddy/vless-grpc",
+      "listen": "/etc/caddy/vlessgrpc",
       "protocol": "vless",
       "settings": {
         "clients": [
