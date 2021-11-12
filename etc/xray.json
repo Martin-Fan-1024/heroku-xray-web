@@ -33,7 +33,7 @@
       "streamSettings": {
         "network": "grpc",
         "grpcSettings": {
-          "serviceName": "api" // 填写你的 ServiceName
+          "serviceName": "api-grpc" // 填写你的 ServiceName
         }
       }
     }
