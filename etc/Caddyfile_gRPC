@@ -22,4 +22,4 @@ reverse_proxy @websocket_xray_vless unix//etc/caddy/vless
     protocol grpc
     path /api # 填写 /你的 ServiceName/*
     }
-reverse_proxy @grpc unix//etc/caddy/vlessgrpc
+reverse_proxy @grpc unix//etc/caddy/vless_grpc
