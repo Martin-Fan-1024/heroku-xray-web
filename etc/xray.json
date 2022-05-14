@@ -19,7 +19,7 @@
             }
         },
         {
-      "port": 2002,
+      "port": 20002,
       "listen": "127.0.0.1",
       "protocol": "vless",
       "settings": {
