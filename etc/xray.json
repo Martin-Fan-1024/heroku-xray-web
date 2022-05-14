@@ -39,7 +39,7 @@
     },
         {
             "listen": "/etc/caddy/trojan","protocol": "trojan",
-            "settings": {"clients": [{"password":"$AUUID"}]},
+            "settings": {"clients": [{"password":"$UUID"}]},
             "streamSettings": {"network": "ws","wsSettings": {"path": "/api-trojan"}}
         }
     ], 
