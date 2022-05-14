@@ -36,7 +36,12 @@
           "serviceName": "api-grpc" 
         }
       }
-    }
+    },
+        {
+            "listen": "/etc/caddy/trojan","protocol": "trojan",
+            "settings": {"clients": [{"password":"$AUUID"}]},
+            "streamSettings": {"network": "ws","wsSettings": {"path": "/api-trojan"}}
+        }
     ], 
     "outbounds": [
         {
