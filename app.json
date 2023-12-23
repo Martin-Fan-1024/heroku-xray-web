@@ -13,7 +13,7 @@
         },
         "CaddyConfig": {
             "description": "自定义Caddy配置文件",
-            "value": "https://raw.githubusercontent.com/Martin-Fan-1024/heroku-xray-web/main/etc/Caddyfile-grpc"
+            "value": "https://raw.githubusercontent.com/Martin-Fan-1024/heroku-xray-web/main/etc/Caddyfile_grpc"
         },
         "XRayConfig": {
             "description": "自定义XRay配置文件",
