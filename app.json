@@ -9,15 +9,15 @@
         },
         "WebPage": {
             "description": "自定义Web页面",
-            "value": "https://raw.githubusercontent.com/wanjiji/heroku-xray-web/main/archive/web.zip"
+            "value": "https://raw.githubusercontent.com/Martin-Fan-1024/heroku-xray-web/main/archive/web.zip"
         },
         "CaddyConfig": {
             "description": "自定义Caddy配置文件",
-            "value": "https://raw.githubusercontent.com/wanjiji/heroku-xray-web/main/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/Martin-Fan-1024/heroku-xray-web/main/etc/Caddyfile-grpc"
         },
         "XRayConfig": {
             "description": "自定义XRay配置文件",
-            "value": "https://raw.githubusercontent.com/wanjiji/heroku-xray-web/main/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/Martin-Fan-1024/heroku-xray-web/main/etc/xray.json"
         }
     },
     "website": "https://github.com/wanjiji/heroku-xray-web",
