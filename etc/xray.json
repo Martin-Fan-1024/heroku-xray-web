@@ -45,23 +45,8 @@
     ], 
     "outbounds": [
         {
-            "protocol": "wireguard",
-            "settings": {
-                "address": [
-                    "10.24.9.13/32",
-                    "2606:4700:110:8fb6:f069:e3db:1a89:111c/128"
-                ],
-                "peers": [
-                    {
-                        "endpoint": "162.159.192.1:2408",
-                        "keepAlive": 600,
-                        "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-                    }
-                ],
-                "mtu": 1400,
-                "domainStrategy": "ForceIPv6v4",
-                "secretKey": "qNX8hedod/87utAXiEaTsIPJvWJ8q/18KRt/udLs/HQ="
-            },
+            "protocol": "freedom",
+            
             "tag": "direct"
         }
     ]
